@@ -87,7 +87,7 @@ body {
 }
 
 /* Add a red background color to navbar links on hover */
-.nav-bar a:hover, .dropdown:hover .dropbtn {
+.nav-bar a:hover, .dropdown:hover .dropbtn{
     background-color: #eebcb1;
     font-style: italic;
 }
@@ -191,6 +191,12 @@ h1 {
 h2 {
     font-family: sans-serif;
     font-size: 25px;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 15px;
     font-weight: 600;
 }
 
