@@ -218,11 +218,11 @@ body {
 
 .jobtab button {
     background-color: inherit;
-    float: left;
+    float: center;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    /*padding: 14px 16px;*/
     transition: 0.3s;
 }
 
@@ -246,6 +246,32 @@ body {
     padding: 2%;
 }
 
+.box {
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f4e3d3;
+    border-style: solid;
+    border-color: #adb7c0;
+    border-width: 5px;
+    padding: 2%;
+}
+
+.nostyle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+}
+
+.nostyle td, th {
+    border: 1px solid #adb7c0;
+    text-align: left;
+}
+
+.nostyle li {
+    list-style: none;
+}
+
 h1 {
     font-size: 50px;
     font-weight: 700;
@@ -257,7 +283,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -266,6 +292,11 @@ p {
     padding-right: 2%;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.box ul% {
+    padding top: 0px;
+    padding-bottom: 0px;
 }
 
 /* Sources:
