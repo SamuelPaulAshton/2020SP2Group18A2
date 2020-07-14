@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    </head>
+
+    <body>
+        <!-- Modified version of https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+        <section class="nav-bar">
+            <nav>
+                <ul class="nav-options">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">About Us
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="team-prof.html">Team Profile</a>
+                                <a href="jobs.html">Our Ideal Jobs</a>
+                                <div class="dropdown-sub">
+                                    <button class="dropbtn-sub">Individual Profiles
+                                        <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-sub-content">
+                                        <a href="samuel.html">Samuel Ashton</a>
+                                        <a href="shane.html">Shane Bunting</a>
+                                        <a href="jessica.html">Jessica Delgado</a>
+                                        <a href="william.html">William Ericson</a>
+                                        <a href="matthew.html">Matthew McCracken</a>
+                                        <a href="cameron.html">Cameron McLaughlan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="../it-work/int-it.html">Interview With An IT Professional</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">IT Technologies
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="../it-tech/auto-vehicle.html">Autonomous Vehicles</a>
+                                <a href="../it-tech/blockchain.html">Blockchain and Cryptocurrencies</a>
+                                <a href="../it-tech/cyb-sec.html">Cyber Security</a>
+                                <a href="../it-tech/robot.html">Robotics</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="../group-reflection.html">Group Reflection</a></li>
+                    <li class="nav-right"><a href="../proj-idea.html">Project Idea</a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- End of modified code -->
+        <div class="title">
+            <h2>Our Ideal Jobs</h2>
+        </div>
+        <main>
+            <div class="jobtab">
+                <button class="tablinks" onclick="OpenStudent(event, 'Samuel')" id="defaultOpen"><b>Samuel Ashton</b></button>
+
+                <button class="tablinks" onclick="OpenStudent(event, 'Shane')"><b>Shane Bunting</b></button>
+
+                <button class="tablinks" onclick="OpenStudent(event, 'Jessica')"><b>Jessica Delgado</b></button>
+
+                <button class="tablinks" onclick="OpenStudent(event, 'William')"><b>William Ericson</b></button>
+
+                <button class="tablinks" onclick="OpenStudent(event, 'Matthew')"><b>Matthew McCracken</b></button>
+
+                <button class="tablinks" onclick="OpenStudent(event, 'Cameron')"><b>Cameron McLaughlan</b></button>
+            </div>
+
+            <!-- Tab Content -->
+            <div id="Samuel" class="tabcontent">
+                <span onclick="this.parentElement.style.display='none'" class="topright"></span>
+                <h3>CTO – Chief Technical Officer (Sam) - Not Ranked</h3>
+                <b>Required Skills</b>
+                <ul>
+                    <li>Communication</li>
+                    <li>Technical Knowledge of Subject Matter</li>
+                    <li>Love of Learning</li>
+                    <li>Adaptability</li>
+                    <li>Big Picture Thinking</li>
+                    <li>Diplomacy and Patience</li>
+                    <li>People Skills</li>
+                    <li>Strategic Thinking</li>
+                    <li>Listening</li>
+                    <li>Coding</li>
+                    <li>Time Management</li>
+                    <li>Security and Privacy Management</li>
+                    <li>Mentoring</li>
+                </ul>
+            </div>
+
+            <div id="Shane" class="tabcontent">
+                <span onclick="this.parentElement.style.display='none'" class="topright"></span>
+                <h3>Senior Incident Response</h3>
+                <b>Required Skills</b>
+                <ul>
+                    <li>Skills probably very closely match Network Security Manager</li>
+                    <li>Mangement</li>
+                    <li>Communication</li>
+                    <li>Digital Forensics</li>
+                    <li>Cloud Analysis</li>
+                    <li>Reverse Engineering</li>
+                    <li>Penetration, Red Teaming</li>
+                    <li>Threat Hunting</li>
+                </ul>
+            </div>
+
+            <div id="Jessica" class="tabcontent">
+                <span onclick="this.parentElement.style.display='none'" class="topright"></span>
+                <h3>IT Program Manager</h3>
+                <b>Required Skills</b>
+                <ul>
+                    <li>Communication</li>
+                    <li>Patience</li>
+                    <li>Technical Skills</li>
+                    <li>Flexibility</li>
+                    <li>Stress Tolerence</li>
+                    <li>Project Management Methodology (Waterfall, Agile, etc)</li>
+                    <li>People and Resource Management</li>
+                </ul>
+            </div>
+
+            <div id="William" class="tabcontent">
+                <span onclick="this.parentElement.style.display='none'" class="topright"></span>
+                <h3>Robotics Engineer</h3>
+                <b>Required Skills</b>
+                <ul>
+                    <li>Coding</li>
+                    <li>Mathematics</li>
+                    <li>Active Learning</li>
+                    <li>Judgement and Decision Making</li>
+                    <li>Communication</li>
+                    <li>Technology Design</li>
+                    <li>Problem Solving</li>
+                    <li>Persistence</li>
+                </ul>
+            </div>
+
+            <div id="Matthew" class="tabcontent">
+                <span onclick="this.parentElement.style.display='none'" class="topright"></span>
+                <h3>OT Network Security Administrator</h3>
+                <b>Required Skills</b>
+                <ul>
+                    <li>CISCO Professional</li>
+                    <li>Problem Solving</li>
+                    <li>Communication</li>
+                    <li>Analytics and Intelligence</li>
+                </ul>
+            </div>
+
+            <div id="Cameron" class="tabcontent">
+                <span onclick="this.parentElement.style.display='none'" class="topright"></span>
+                <h3>Software Engineer</h3>
+                <b>Required Skills</b>
+                <ul>
+                    <li>Coding</li>
+                    <li>Teamwork</li>
+                    <li>Communication</li>
+                    <li>Problem Solving</li>
+                    <li>Multi-tasking</li>
+                    <li>Attention to Detail</li>
+                </ul>
+            </div>
+        </main> 
+
+        <script>
+        function OpenStudent(evt, cityName) {
+            var i, tabcontent, tablinks;
+            
+            tabcontent = document.getElementsByClassName("tabcontent");
+            
+            for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+            }
+            
+            tablinks = document.getElementsByClassName("tablinks");
+            
+            for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+        
+    </body>
+</html>
