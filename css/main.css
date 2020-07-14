@@ -274,6 +274,10 @@ p {
     text-justify: inter-word;
 }
 
+b {
+    font-family: sans-serif;
+}
+
 /* Sources:
     https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
     https://stackoverflow.com/questions/28630433/how-to-align-navbar-to-center-with-css
