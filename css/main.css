@@ -263,6 +263,10 @@ body {
     width: 96%;
 }
 
+.nostyle th {
+    text-align: center;
+}
+
 .nostyle td, th {
     border: 1px solid #adb7c0;
     text-align: left;
@@ -289,6 +293,10 @@ body {
     border-radius: 50%;
 }
 
+.nostyle .center {
+    text-align: center;
+}
+
 h1 {
     font-size: 50px;
     font-weight: 700;
@@ -300,8 +308,22 @@ h2 {
 }
 
 h3 {
+    padding-left: 2%;
+    padding-right: 2%;
     font-size: 18px;
     font-weight: 600;
+}
+
+.nostyle2 a:link {
+    color: #000;
+}
+
+.nostyle2 a:visited {
+    color: #000;
+}
+
+.nostyle2 a:hover {
+    color: gray;
 }
 
 p {
