@@ -57,11 +57,6 @@ body {
     overflow: hidden;
 }
 
-.dropdown-sub{
-    float: left;
-    overflow: hidden;
-}
-
 /* Dropdown button */
 .dropdown .dropbtn {
     font-size: 18px;
@@ -75,26 +70,8 @@ body {
     margin: 0; /* Important for vertical align on mobile phones */
 }
 
-.dropdown-sub .dropbtn-sub {
-    font-size: 18px;
-    border: none;
-    outline: none;
-    color: black;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    font-weight: inherit;
-    margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
+/* change color on hover */
 .nav-bar a:hover, .dropdown:hover .dropbtn{
-    background-color: #eebcb1;
-    font-style: italic;
-    transition: 0.3s;
-}
-
-.nav-bar a:hover, .dropdown-sub:hover .dropbtn-sub{
     background-color: #eebcb1;
     font-style: italic;
     transition: 0.3s;
@@ -111,26 +88,8 @@ body {
     transition: 0.3s;
 }
 
-.dropdown-sub-content {
-    display: none;
-    position: absolute;
-    background-color: #f4e3d3;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
 /* Links inside the dropdown */
 .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-sub-content a {
     float: none;
     color: black;
     padding: 12px 16px;
@@ -147,10 +106,6 @@ body {
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-sub:hover .dropdown-sub-content {
     display: block;
 }
 /* End */
@@ -297,6 +252,30 @@ body {
     text-align: center;
 }
 
+.nostyle2 a:link {
+    color: #000;
+}
+
+.nostyle2 a:visited {
+    color: #000;
+}
+
+.nostyle2 a:hover {
+    color: gray;
+}
+
+.grey a:link {
+    color: #000;
+}
+
+.grey a:visited {
+    color: #000;
+}
+
+.grey a:hover {
+    color: gray;
+}
+
 h1 {
     font-size: 50px;
     font-weight: 700;
@@ -314,19 +293,7 @@ h3 {
     font-weight: 600;
 }
 
-.nostyle2 a:link {
-    color: #000;
-}
-
-.nostyle2 a:visited {
-    color: #000;
-}
-
-.nostyle2 a:hover {
-    color: gray;
-}
-
-p {
+p { 
     padding-left: 2%;
     padding-right: 2%;
     text-align: justify;
