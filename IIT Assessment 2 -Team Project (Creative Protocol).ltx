@@ -1,7 +1,11 @@
 \documentclass[11pt, oneside, a4paper, titlepage]{article}
 \usepackage{multicol}
-\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{breakurl}
+\usepackage[breaklinks]{hyperref}
+\def\UrlBreaks{\do\/\do\-}
 \usepackage{lscape}
+\usepackage{natbib}
 % This is the group paper for Assessment 2 Team Project, for the class Introduction to Information Technology (COSC2196)
 
 \setcounter{tocdepth}{3}
@@ -45,8 +49,8 @@ This page intentionally left blank
 % Samuel Ashton
 \subsection{Samuel Ashton:}
 Student ID: \hfill s3742249\\
-Student email:\hfill s3742249@student.rmit.edu.au\\
-GitHub link:\hfill https://samuelpaulashton.github.io/IIT/\\
+Student email:\hfill \href{mailto:s3742249@student.rmit.edu.au}{s3742249@student.rmit.edu.au}\\
+GitHub link:\hfill \href{https://samuelpaulashton.github.io/IIT/}{https://samuelpaulashton.github.io/IIT/}\\
 \\
 Hi, I'm Samuel Ashton (s3742249)
 \\
@@ -79,8 +83,8 @@ Required Skills:
 % Shane Bunting
 \subsection{Shane Bunting:}
 Student ID: \hfill s3407441\\
-Student email:\hfill s3407441@student.rmit.edu.au\\
-GitHub link: \hfill https://shanebunting.github.io/IIT/\\
+Student email:\hfill \href{mailto:s3407441@student.rmit.edu.au}{s3407441@student.rmit.edu.au}\\
+GitHub link: \hfill \href{https://shanebunting.github.io/IIT/}{https://shanebunting.github.io/IIT/}\\
 \\
 Hi, I'm Shane Bunting (s3407441)
 \\
@@ -108,8 +112,8 @@ Required Skills:
 % Jessica Delgado
 \subsection{Jessica Delgado:}
 Student ID: \hfill s3864357\\
-Student email:\hfill s3864357@student.rmit.edu.au\\
-GitHub link: \hfill https://jessicaprojects.github.io/SP2Demo2020/ \\
+Student email:\hfill \href{s3864357@student.rmit.edu.au}{s3864357@student.rmit.edu.au}\\
+GitHub link: \hfill \href{https://jessicaprojects.github.io/SP2Demo2020/}{https://jessicaprojects.github.io/SP2Demo2020/} \\
 \\
 Hi, I'm Jessica Delgado (s3864357) 
 \\
@@ -136,8 +140,8 @@ Required Skills:
 % William Ericson
 \subsection{William Ericson:}
 Student ID: \hfill s3866209\\
-Student email:\hfill s3866209@student.rmit.edu.au\\
-GitHub link: \hfill https://erics-willi.github.io/ITAssignment1/\\
+Student email:\hfill \href{mailto:s3866209@student.rmit.edu.au}{s3866209@student.rmit.edu.au}\\
+GitHub link: \hfill \href{https://erics-willi.github.io/ITAssignment1/}{https://erics-willi.github.io/ITAssignment1/}\\
 \\
 Hi, I'm William Ericson (s3866209) 
 \\
@@ -150,7 +154,7 @@ Ideal Job: \hfill Robotics Engineer\\
 Required Skills: 
 \begin{itemize}
 	\setlength\itemsep{0em}
-	\item	Coding
+	\item Coding
 	\item Mathematics
 	\item Active Learning
 	\item Judgement and Decision Making
@@ -165,8 +169,8 @@ Required Skills:
 % Matthew McCracken
 \subsection{Matthew McCracken:}
 Student ID: \hfill s3864453\\
-Student email\hfill s3864453@student.rmit.edu.au\\
-GitHub link: \hfill https://aussiematt84.github.io/IIT/\\
+Student email\hfill \href{mailto:s3864453@student.rmit.edu.au}{s3864453@student.rmit.edu.au}\\
+GitHub link: \hfill \href{https://aussiematt84.github.io/IIT/}{https://aussiematt84.github.io/IIT/}\\
 \\
 Hi, I'm Matt McCracken (s3864453) 
 \\
@@ -190,8 +194,8 @@ Required Skills:
 % Cameron McLaughlan
 \subsection{Cameron McLaughlan:}
 Student ID: \hfill s3717363\\
-Student email\hfill s3717363@student.rmit.edu.au\\
-GitHub link: \hfill https://cammclaughlan.github.io/IT-project-1/ \\
+Student email\hfill \href{mailto:s3717363@student.rmit.edu.au}{s3717363@student.rmit.edu.au}\\
+GitHub link: \hfill \href{https://cammclaughlan.github.io/IT-project-1/}{https://cammclaughlan.github.io/IT-project-1/} \\
 \\
 Hi, I'm Cameron McLaughlan (s3717363)
 \\
@@ -567,7 +571,7 @@ Detail Oriented and Quality Assurance and Control are also both skills that are 
 \subsection{What Does It Do?}
 Autonomous vehicles are cars or trucks where human drivers are not needed to safely operate the vehicle. They are also known as driverless cars and are controlled by the use of software and sensors which are capable of sensing their environment and moving safely with little or no human drivers. 
 
-Autonomous technology isn’t an all or nothing type of technology. There is a whole spectrum from driver-enabled to fully-driverless vehicles. We still have some time to go to get to level 5 autonomous vehicles. There are 6 levels of autonomy as follows :  
+Autonomous technology isn’t an all or nothing type of technology. There is a whole spectrum from driver-enabled to fully-driverless vehicles. We still have some time to go to get to level 5 autonomous vehicles. There are 6 levels of autonomy as follows :
 \\
 \\
 Level 0 - No Automation
@@ -604,7 +608,7 @@ Designing the autonomous vehicle to be able to adjust to all driving scenarios, 
 
 In the latest research and progress done with autonomous vehicles, the leading sensor technology approach is thermal imaging. A thermal imaging sensor can detect longer wavelengths than those in the visual spectrum, they can sense images below the visual spectrum, making it more able to detect humans, animals, and objects in different weather conditions, regardless of the time of day. 
 
-Due to the fact that the vibrations of the vehicle can make the LIDAR (Light Detection and Ranging) data unstable, thus making the reliability of the technology limited, this is a drawback of using it as a sensor for autonomous vehicles. LIDAR is a method used for measuring distances by illuminating the target with laser and measuring the reflection with a sensor. In response to this, MIT has designed a localising ground penetrating radar to solve the problem of sensing complex surfaces. This technology sends radio waves into the ground and creates a stable digital map of the area which is not affected by weather or light conditions. This, together with the sensors is the most accurate technology to date and Geophysical Survey Systems Inc. (GSSI) is continuing the development of this technology. 
+Due to the fact that the vibrations of the vehicle can make the LIDAR (Light Detection and Ranging) data unstable, thus making the reliability of the technology limited, this is a drawback of using it as a sensor for autonomous vehicles. LIDAR is a method used for measuring distances by illuminating the target with laser and measuring the reflection with a sensor. In response to this, MIT has designed a localising ground penetrating radar to solve the problem of sensing complex surfaces. This technology sends radio waves into the ground and creates a stable digital map of the area which is not affected by weather or light conditions. This, together with the sensors is the most accurate technology to date and Geophysical Survey Systems Inc. (GSSI) is continuing the development of this technology.
 
 With all the advancement in autonomous technology, getting it to a point where it is fully autonomous can only go as fast as sensor technology will allow. All of the sensor technology has limitations which restricts it in being able to take into account the unpredictable weather and human behaviour patterns which the vehicle may encounter. The best options thus far are thermal imaging and localised ground penetrating radar in as far as sensor types are concerned.
 
@@ -637,6 +641,13 @@ The more common driverless cars become, the more we will rely on them in our day
 Autonomous vehicle could also be helpful to me and those around me when it comes to businesses that do deliveries, as you could order things online and it could be delivered using an autonomous vehicle, getting a contactless delivery to your door. 
 
 So all around, once driverless cars become more common place, it would have a general positive effect on my life and that of those around me.
+
+\subsection{References}
+	\href{https://www.cbronline.com/opinion/thermal-imaging-driving}{https://www.cbronline.com/opinion/thermal-imaging-driving}\\
+	\href{https://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/19732/State-of-the-Art-Autonomous-Driving-Technology-as-2019-Comes-to-a-Close.aspx}{https://www.engineering.com/DesignerEdge/DesignerEdgeArticles\\/ArticleID/19732/State-of-the-Art-Autonomous-Driving-Technology-as-\\2019-Comes-to-a-Close.aspx}\\
+	\href{https://mobilitylab.org/2016/06/16/two-keys-autonomous-vehicles-ease-congestion/}{https://mobilitylab.org/2016/06/16/two-keys-autonomous-vehicles-\\ease-congestion/}\\
+	\href{https://www.wevolver.com/article/2020.autonomous.vehicle.technology.report}{https://www.wevolver.com/article/2020.autonomous.vehicle.technology\\.report}\\
+
 \newpage
 % End of Autonomous Vehicles
 % ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -644,14 +655,14 @@ So all around, once driverless cars become more common place, it would have a ge
 % Blockchain and Cryptocurrencies
 \section{Blockchain and Cryptocurrencies}
 
-\subsection{What Does It Do?}
+\subsection{What Does It Do?} 
 Blockchain technology is a decentralized and distributed, digital ledger used to record transactions of any type whereas cryptocurrencies are a digital currency that operates independently of a central bank, cryptocurrencies commonly use blockchain technology to operate, maintain and distribute themselves. Blockchain has the option to use a public ledger which is why it is referred to as public. What makes blockchain technology state of the art is its decentralisation due to its distributed digital ledger, this means that instead of one database keeping a record of all its data or transactions that record is made public to everyone with the public key, this allows an indefinite number of copies of the records making it almost impossible to hack. Even if someone was to create a public record, the system would recognise its difference to all other existing records, and it would be changed to be the same as all others. The private key (which is an extension of the public key) is what allows users of a cryptocurrency or blockchain software product to interact with each other, ie in the case of bitcoin transfer bitcoin from one user to another user.
 
 With the first cryptocurrency and the first use of blockchain technology being only in 2009 (bitcoin), these technologies are fairly new, and their potential has really yet to be explored. Currently, many large corporations are starting to use or are exploring blockchain technologies and the potential increase to productivity or efficiencies in their business, some of these include Shell, ANZ, DHL, and Bank of China. All of the corporations are looking at or are implementing blockchain in their transaction or record keeping.
 
 In the next three years, it could be expected that many larger corporations that have the capital and willingness to invest in the technology will involve it in any part of their business. This could be a part of many different types of businesses and involve helping shorten their supply chain, medical record-keeping, transactional logs, stock movement, with its implementation use up to the creativity of the designer.
 
-In terms of banking, blockchain will allow for much faster and secure transactions, due to its decentralisation it would allow people to send or receive money and be approved quicker due to the algorithms running 24/7 and with no need for two or more banking institutions to approve a transaction. Currently, transactions can happen in a fraction of second but the actual process of verifying that either account exists and has access or is allowed to transfer the amounts being sent can take up to several business days and requires banks to have different arrangements and agreements all over the world. By removing this complicated verifying process blockchain has the ability to revolutionise not just the banking sector but many different finance sectors including stockbroking and land transfers which both have a very similar issue when it comes to verifying transfers. 
+In terms of banking, blockchain will allow for much faster and secure transactions, due to its decentralisation it would allow people to send or receive money and be approved quicker due to the algorithms running 24/7 and with no need for two or more banking institutions to approve a transaction. Currently, transactions can happen in a fraction of second but the actual process of verifying that either account exists and has access or is allowed to transfer the amounts being sent can take up to several business days and requires banks to have different arrangements and agreements all over the world. By removing this complicated verifying process, blockchain has the ability to revolutionise not just the banking sector but many different finance sectors including stockbroking and land transfers which both have a very similar issue when it comes to verifying transfers. 
 
 Cryptocurrencies, already a highly tradeable currency, have yet to make a big dent in traditional spending. In the next three years we could see a greater shift towards people not just trading cryptocurrency but using them as you would a traditional currency to purchase goods and services.
 
@@ -668,6 +679,14 @@ This technology could potentially affect people whose jobs revolve around record
 In your daily life, this technology can change how your personal information and day to day transactions happen. You as an individual may not see the changes yourself but your privacy and security will be looked at in another way. You may have a greater sense of privacy and security when using online transactions with your private data, especially in the areas of finance and medical data, which may see the biggest use of blockchain. These changes will see the basic background of all our interactions and storing of our data effected, you may no longer worry about the privacy concerns for such things as My health records in Australia if it were to use blockchain technology or loss of credit card information if platforms on the web are using blockchain or any type of cryptocurrency to make payments for goods and services. 
 
 Even with the increasing use and potential changes into cryptocurrency, the way we make purchases and complete transactions won’t likely change, we will most likely continue to use the currency we currently have, transitioning from a central bank system where all our transactions are processed to a blockchain system where we are still issued cryptocurrency and will more than likely have today's larger banks act in a similar fashion to what they do today as holders and lenders of the cryptocurrency. This may affect your friends and family if you are separated overseas as blockchain technology and cryptocurrency is very easy and quick to send over borders due to the decentralised nature of both technologies.
+
+\subsection{References}
+	Blockchain: Blueprint for a New Economy\\
+	\href{https://www.shell.com/inside-energy/blockchain.html}{https://www.shell.com/inside-energy/blockchain.html}\\
+	\href{https://media.anz.com/posts/2019/07/banks--ibm-and-scentre-launch-lygon-blockchain-to-transform-bank}{https://media.anz.com/posts/2019/07/banks--ibm-and-scentre\\-launch-lygon-blockchain-to-transform-bank}\\
+	\href{https://www.dhl.com/us-en/home/insights-and-innovation/insights/blockchain.html}{https://www.dhl.com/us-en/home/insights-and-innovation/insights\\/blockchain.html}\\
+	\href{https://www.ledgerinsights.com/bank-of-china-insurance-blockchain/}{https://www.ledgerinsights.com/bank-of-china-insurance-blockchain/}
+
 \newpage
 % End of blockchain and cryptocurrencies
 % ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -694,7 +713,7 @@ The potential impact of the new and emergent development in technology over the 
 
 We will see millions of new devices that will be connected to the internet, posing many more opportunities than before for threats to attempt to steal what is not rightfully theirs. Advances such as AI and Biometrics whilst still being developed create both exciting opportunists in Cybersecurity defense and at the same time provide just as many risks and potential threats. Given the need for huge efficiencies in detection, the provision of situational awareness and real-time remediation of threats, automation, and AI-driven solutions are the future of Cybersecurity. 
 
-However as previous Cybercrime has shown us, the advances in any technological development in AI have significant fallbacks as they are usually quickly seized upon and exploited by the criminals. Whilst AI is something that we will need with future advances, it is not something that we can just openly hand over to the criminal community. 
+However as previous Cybercrime has shown us, the advances in any technological development in AI have significant fallbacks as they are usually quickly seized upon and exploited by the criminals. Whilst AI is something that we will need with future advances, it is not something that we can just openly hand over to the criminal community.
 
 Such the same can be seen for Biometrics, being thought of by experts as the 3rd factor in authentication. The opportunity is there to create and run something phenomenal, but to do so would require the data of an individual to be stored globally and will drive cybercriminals to target these high volumes of data. These advances in technology for the current time and over the next few years will, I believe, create more available jobs. 
 
@@ -708,6 +727,13 @@ This would also be an issue for those around me, close friends, family, and soci
 It also raises the question of safety as if the good guys, the ones who are employed to protect us, our society, have access to these measures, what does it mean should these accesses ever fall into the hands of attackers? I would assume that is always going to be a fallback with any new concept, idea, or implementation. Hackers are becoming increasingly innovative with the techniques they use to access sensitive data. 
 
 In many cases, new technologies that have just hit the market are helpful to hackers, who take advantage of people’s lack of understanding of how those technologies work. Threats will always remain active and more prominent than ever, so long as there is confidential information being used and stored throughout the world.
+\newpage
+
+\subsection{References}
+	\href{https://www.dhs.gov/science-and-technology/csd-mtd}{https://www.dhs.gov/science-and-technology/csd-mtd}\\
+	\href{https://s.itho.me/cybersec/iSecurity/Morphisec.pdf}{https://s.itho.me/cybersec/iSecurity/Morphisec.pdf}\\
+	\href{https://resources.infosecinstitute.com/criminals-can-exploit-ai/}{https://resources.infosecinstitute.com/criminals-can-exploit-ai/}
+
 \newpage
 % End of cybersecurity
 % ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -742,6 +768,22 @@ Robots will also be more commonplace in the home, and this means that people can
 Robots are being developed that try to identify different types of clothes, fold and sort them according to what type they could be, currently these robots fail at that task but in the future, it will not pose a problem for them. This will also make life a lot easier for many people. 
 
 However, on the flip side, the introduction of robotics in factories and other industries would be a negative for my family members, they have seen many people lose their jobs because a robot was introduced that was able to do their job faster and more efficiently. With faster, smarter, and more efficient robots, harder tasks can be done by robots. Amazon has been using robots in their sorting facilities to move packages around, but they still need to be monitored by humans. For postal services, large robots have been made that can sort packages and letters. Not as many people are needed in these sorting facilities anymore. For robots that can work in factories, robotic forklifts have been made, and while they may not be as common as some other robots, they will probably get cheaper and more accessible in time, potentially putting some friends and family of mine out of a job.
+
+\subsection{References}
+	\href{https://www.youtube.com/watch?v=VTlV0Y5yAww}{https://www.youtube.com/watch?v=VTlV0Y5yAww}\\
+	\href{https://www.youtube.com/watch?v=H8xc6LpiNVs}{https://www.youtube.com/watch?v=H8xc6LpiNVs}\\
+	\href{https://www.bostondynamics.com/spot}{https://www.bostondynamics.com/spot}\\
+	\href{https://www.youtube.com/watch?v=cNZPRsrwumQ}{https://www.youtube.com/watch?v=cNZPRsrwumQ}\\
+	\href{https://web.archive.org/web/20090117140017/http://www.darpa.mil/tto/solicit/BAA08-71/LS3_Industry_Day.pdf}{https://web.archive.org/web/20090117140017/http://www.darpa.mil/tto\\/solicit/BAA08-71/LS3\_Industry\_Day.pdf}\\
+	\href{https://www.bostondynamics.com/spot/applications}{https://www.bostondynamics.com/spot/applications}\\
+	\href{https://www.tech.gov.sg/media/media-releases/spot-robot-trial-for-safe-distancing-operations}{https://www.tech.gov.sg/media/media-releases/spot-robot-trial-for-\\safe-distancing-operations}\\
+	\href{https://www.spyce.com/}{https://www.spyce.com/}\\
+	\href{https://www.youtube.com/watch?v=CbL_3le40qc}{https://www.youtube.com/watch?v=CbL\_3le40qc}\\
+	\href{https://www.youtube.com/watch?v=XH-EFtTa6IU}{https://www.youtube.com/watch?v=XH-EFtTa6IU}\\
+	\href{https://www.youtube.com/watch?v=Gf60au-U318}{https://www.youtube.com/watch?v=Gf60au-U318}\\
+	\href{https://www.youtube.com/watch?v=M3SGScaShhw}{https://www.youtube.com/watch?v=M3SGScaShhw}\\
+	\href{https://www.youtube.com/watch?v=rl7iNRdTncQ}{https://www.youtube.com/watch?v=rl7iNRdTncQ}\\
+	
 \newpage
 % End of robotics
 % ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -799,15 +841,15 @@ Phase 1:
 	\item A Raspberry Pi (A raspberry Pi Model B will be used as we have one available)
 	\item A Wifi Nano USB Adaptor (For communications)
 	\item Wireless connectivity to the internet and/or server (Wireless networking out of scope for this project)
-	\item A waterproof DS18B20 temperature probe such as https://www.altronics.com.au/p/z6386-stainless-steel-housing-waterproof-ds18b20-temperature-probe/
+	\item A waterproof DS18B20 temperature probe such as \\\href{https://www.altronics.com.au/p/z6386-stainless-steel-housing-waterproof-ds18b20-temperature-probe/}{https://www.altronics.com.au/p/z6386-stainless-steel-housing\\-waterproof-ds18b20-temperature-probe/}
 	\item 1 x 4.7k Resistor (As required by the DS18B20)
 \end{itemize}
 
 Phase 2:
 \begin{itemize}
 	\setlength\itemsep{0em}
-	\item A PH monitor such as this: \url{https://au.banggood.com/PH-Value-Data-Detection-and-Acquisition-Sensor-Module-Acidity-and-Alkalinity-Sensor-Monitoring-and-Control-p-1547652.html?gmcCountry=AU&currency=AUD&createTmp=1&utm_source=googleshopping&utm_medium=cpc_bgcs&utm_content=frank&utm_campaign=ssc-aug-all-1129&ad_id=400330096020&ID=532941&cur_warehouse=CN}
-	\item A Sunlight sensor such as this: \url{https://thepihut.com/products/grove-sunlight-sensor}
+	\item A PH monitor such as this: \href{https://au.banggood.com/PH-Value-Data-Detection-and-Acquisition-Sensor-Module-Acidity-and-Alkalinity-Sensor-Monitoring-and-Control-p-1547652.html?gmcCountry=AU&currency=AUD&createTmp=1&utm_source=googleshopping&utm_medium=cpc_bgcs&utm_content=frank&utm_campaign=ssc-aug-all-1129&ad_id=400330096020&ID=532941&cur_warehouse=CN}{PH Value Data Detection and Acquisition Sensor Module Acidity and Alkalinity Sensor Monitoring and Control - Type 1 }
+	\item A Sunlight sensor such as this: \href{https://thepihut.com/products/grove-sunlight-sensor}{https://thepihut.com/products/grove-sunlight-sensor}
 	\item A water level sensor – more research on the best method is required
 \end{itemize}
 
@@ -820,7 +862,7 @@ This is the most difficult and expensive and most likely out of scope for this s
 \end{itemize}
 
 \subsection{Server Side Requirements}
-Currently much of the server side this project can already be done with a combination of readily available open source tools.  Reporting and monitoring tools such as Nagios exist which can be deployed to measure temperature from a source device.  The Nagios client can be installed on the Raspbian operating system, whilst the Nagios server can be installed on a number of Linux distributions.  Addons such as RRDGraph can then display this information.  As Nagios is a product more aimed at IT infrastructure we would be looking at developing our own unique solution.  The RRDGraph/RRDTool open source logging tool can be used for this purpose. See https://oss.oetiker.ch/rrdtool/
+Currently much of the server side this project can already be done with a combination of readily available open source tools.  Reporting and monitoring tools such as Nagios exist which can be deployed to measure temperature from a source device.  The Nagios client can be installed on the Raspbian operating system, whilst the Nagios server can be installed on a number of Linux distributions.  Addons such as RRDGraph can then display this information.  As Nagios is a product more aimed at IT infrastructure we would be looking at developing our own unique solution.  The RRDGraph/RRDTool open source logging tool can be used for this purpose. See \href{https://oss.oetiker.ch/rrdtool/}{https://oss.oetiker.ch/rrdtool/}
 
 % List
 \begin{itemize}
@@ -846,6 +888,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum feugiat a
 Cras placerat magna vel risus suscipit, nec dapibus justo bibendum. In hac habitasse platea dictumst. Quisque a sollicitudin urna. Nulla vitae tristique ex, quis tempus arcu. Phasellus molestie, lorem vel feugiat ullamcorper, ligula metus fermentum nulla, a suscipit lorem arcu nec purus. Duis urna nisi, tristique vel volutpat ac, congue id risus. Fusce pharetra eget sem hendrerit iaculis.
 
 Etiam pellentesque, lorem id euismod porttitor, turpis dui mattis mi, eu porttitor justo justo sit amet tellus. Vivamus tincidunt ultrices velit ac congue. Pellentesque euismod quam nisi, nec mollis nisl feugiat non. Curabitur non sem commodo ante fringilla auctor. Morbi quis ullamcorper magna. Pellentesque odio elit, tristique eu lectus egestas, vehicula fermentum lacus. Nam fringilla malesuada erat, vestibulum dapibus metus eleifend non. Vestibulum euismod metus at purus. 
+\newpage
+
 \end{document}
 
 % Still need to add Interview, group reflection and tools.
