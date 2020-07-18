@@ -171,6 +171,10 @@ body {
     text-align: center;
 }
 
+.tab h3 {
+    font-size:15;
+}
+
 .tab button {
     background-color: inherit;
     float: center;

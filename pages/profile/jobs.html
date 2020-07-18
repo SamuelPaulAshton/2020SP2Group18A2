@@ -47,7 +47,7 @@
         </div>
         <main>
             <div class="tab">
-                <button class="tablinks" onclick="OpenStudent(event, 'Samuel')" id="defaultOpen"><h3>Samuel Ashton</h3></button>
+                <button class="tablinks" onclick="OpenStudent(event, 'Samuel')"><h3>Samuel Ashton</h3></button>
 
                 <button class="tablinks" onclick="OpenStudent(event, 'Shane')"><h3>Shane Bunting</h3></button>
 
@@ -58,6 +58,8 @@
                 <button class="tablinks" onclick="OpenStudent(event, 'Matthew')"><h3>Matthew McCracken</h3></button>
 
                 <button class="tablinks" onclick="OpenStudent(event, 'Cameron')"><h3>Cameron McLaughlan</h3></button>
+                
+                <button class="tablinks" onclick="OpenStudent(event, 'Industry')" id="defaultOpen"><h3>Industry Data</h3></button>
             </div>
 
             <!-- Tab Content -->
@@ -80,6 +82,8 @@
                     <li>Security and Privacy Management</li>
                     <li>Mentoring</li>
                 </ul>
+                <h3>Has the Burning Glass Industry data changed your mind?</h3>
+                <p></p>
             </div>
 
             <div id="Shane" class="tabcontent">
@@ -96,6 +100,8 @@
                     <li>Penetration, Red Teaming</li>
                     <li>Threat Hunting</li>
                 </ul>
+                <h3>Has the Burning Glass Industry data changed your mind?</h3>
+                <p>Based on the Burning Glass industry data my thoughts on my original chosen ideal job of Senior Incident Response has not changed. Whilst not directly reflected or even listed within the data, it can be seen to closely resemble that of a Systems Administrator and a Network Security Manager. I was able to pick up some more information with respect to the 'best' or most sought after baseline and specialized skills that I can now add into my original 7 year plan. Currently not having much experience in the industry it is a big stretch to reach for such a high end position but I believe that this being my end goal, something I really want, that I am able to achieve it with hard work, determination and hopefully getting a mentor along the way.</p>
             </div>
 
             <div id="Jessica" class="tabcontent">
@@ -111,6 +117,8 @@
                     <li>Project Management Methodology (Waterfall, Agile, etc)</li>
                     <li>People & Resource Management</li>
                 </ul>
+                <h3>Has the Burning Glass Industry data changed your mind?</h3>
+                <p></p>
             </div>
 
             <div id="William" class="tabcontent">
@@ -127,6 +135,8 @@
                     <li>Problem Solving</li>
                     <li>Persistence</li>
                 </ul>
+                <h3>Has the Burning Glass Industry data changed your mind?</h3>
+                <p>Based on the Burning Glass Industry Data, even though my ideal job is not ranked, I still haven't changed my mind. I believe that robotics is an industry that is going to boom in the future, with the advances in microprocessors, sensors, and AI, robots are getting cheaper to make and are even more advanced than ever before.</p>
             </div>
 
             <div id="Matthew" class="tabcontent">
@@ -139,6 +149,8 @@
                     <li>Communication</li>
                     <li>Analytics & Intelligence</li>
                 </ul>
+                <h3>Has the Burning Glass Industry data changed your mind?</h3>
+                <p>After looking at the Burning Glass data, and despite my ideal job not being ranked, my choice of an ideal job has not changed. The reason for this is that in my opinion, as the world of cloud storage/services grows with the likes of Project xCloud and Geforce Now needing more localised cloud storage, so will the demand for people in this particular field.</p>
             </div>
 
             <div id="Cameron" class="tabcontent">
@@ -153,14 +165,12 @@
                     <li>Multi-tasking</li>
                     <li>Attention to Detail</li>
                 </ul>
+                <h3>Has the Burning Glass Industry data changed your mind?</h3>
+                <p>Based on the burning glass data, I have not changed my ideal job. The data reflected that my job was a of medium …. in compassion to the other team members my job was not related specifically to a management position but after seeing the other teams members jobs and data I would consider following this job up into a manageable position. I was better able to understand more characteristics and technical skill that my job may require including needing to learn and understand SQL.</p>
             </div>
             
-            <div class="title">
-                <h2>Industry Data</h2>
-            </div>
-            
-            <div class="box">
-                
+            <div id="Industry" class="tabcontent">
+                <span onclick="this.parentElement.style.display='none'" class="topright"></span>
                 <h3>What are the Job Titles for your group's ideal jobs? How do each of these rank in terms of demand from employers?</h3>
                 
                 <ul>
@@ -243,7 +253,7 @@
                 Detail Oriented and Quality Assurance and Control are also both skills that are requirements for any role in the IT industry.  Sure, it can be assumed that software testers are the main roles that require QA, but any engineer that does not QA their own work in some manner is a bad engineer.  Likewise attention to detail is often overlooked at being a core requirement for good Information Technology </p>
             </div>
         </main> 
-        <p class="title" style="margin-top: 15px; margin-bottom: 15px;"><b>&#169 Creative Protocol - Team 18 2020</b></p>
+        <p class="title" style="margin-top: 15px; margin-bottom: 15px;"><b>Team 18 - Creative Protocol&#169 2020</b></p>    
         <script>
         function OpenStudent(evt, cityName) {
             var i, tabcontent, tablinks;
