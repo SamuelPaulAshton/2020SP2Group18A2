@@ -1,4 +1,5 @@
 \documentclass[11pt, oneside, a4paper, titlepage]{article}
+
 \usepackage{multicol}
 \usepackage{xurl}
 \usepackage{breakurl}
@@ -6,8 +7,11 @@
 \usepackage{lscape}
 \usepackage{natbib}
 \usepackage{graphicx}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
 \usepackage{float}
 \usepackage{wrapfig}
+\usepackage{fancyhdr}
 \graphicspath{ {./img/} }
 \hypersetup{
     colorlinks=true,
@@ -15,17 +19,29 @@
     filecolor=magenta,      
     urlcolor=cyan,
 }
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Assessment Task 2: Team Project}
+\lfoot{Team 18 - Creative Protocol\textsuperscript{\textcopyright} 2020}
+\rfoot{Page \thepage}
+
 \def\UrlBreaks{\do\/\do\-}
 % This is the group paper for Assessment 2 Team Project, for the class Introduction to Information Technology (COSC2196)
 
 \setcounter{tocdepth}{3}
 \setcounter{secnumdepth}{0}
 
+
+
 \begin{document}
 
-\title{Assessment 2 - Team Project\\
+\title{\includegraphics[width=0.7\textwidth]{creative_protocol3}\\
+Assessment 2 - Team Project\\
 Team Creative Protocol\\
-For Introduction to Information Technology (COSC2196)}
+For Introduction to Information Technology (COSC2196)
+\\
+}
 
 \author{Samuel Ashton, Shane Bunting, Jessica Delgado, William Ericson,\\
  Matthew McCracken, Cameron McLaughlan}
@@ -47,12 +63,15 @@ This page intentionally left blank
 
 % Create a table of contents
 \tableofcontents
+
+\paragraph{Group Git Repository:}\href{https://github.com/SamuelPaulAshton/2020SP2Group18A2}{\\ \indent https://github.com/SamuelPaulAshton/2020SP2Group18A2}
+\paragraph{Group Website:}\href{https://samuelpaulashton.github.io/2020SP2Group18A2/}{\\ \indent https://samuelpaulashton.github.io/2020SP2Group18A2/}
 \newpage
 % ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 % Student contact details
-\part{Individual Profile}
+\part{Individual Profiles}
 
 \section{Contact Details And Profiles}
 
@@ -966,8 +985,60 @@ Cras placerat magna vel risus suscipit, nec dapibus justo bibendum. In hac habit
 Etiam pellentesque, lorem id euismod porttitor, turpis dui mattis mi, eu porttitor justo justo sit amet tellus. Vivamus tincidunt ultrices velit ac congue. Pellentesque euismod quam nisi, nec mollis nisl feugiat non. Curabitur non sem commodo ante fringilla auctor. Morbi quis ullamcorper magna. Pellentesque odio elit, tristique eu lectus egestas, vehicula fermentum lacus. Nam fringilla malesuada erat, vestibulum dapibus metus eleifend non. Vestibulum euismod metus at purus. 
 \newpage
 
-\section{References}
-\subsection{Autonomous Vehicles}
+\part{Tools}
+\textbf{Tools Used}
+\begin{multicols}{2}
+\begin{itemize}
+	\setlength\itemsep{0em}
+	\item \href{http://brackets.io/}{Brackets}
+	\item \href{https://discord.com/why-discord-is-different}{Discord}
+	\item \href{https://github.com}{Github}
+	\item \href{https://app.grammarly.com/}{Grammarly}
+\end{itemize}
+
+\columnbreak
+
+\begin{itemize}
+	\setlength\itemsep{0em}
+	\item \href{https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software}{Microsoft Teams}
+	\item \href{https://www.onenote.com/}{Microsoft OneNote}
+	\item \href{https://www.microsoft.com/en-us/microsoft-365/word}{Microsoft Word}
+	\item \href{http://www.tug.org/texworks/}{TeXworks}
+\end{itemize}
+\end{multicols}
+
+\section{Program Discussion}
+\subsection{Brackets}
+Brackets was the program used to make the website, this program was chosen because it was a simple and easy to use text editor that was specifically made for web development.
+\\
+\subsection{Discord}
+Discord was used for communication at the start of the assignment, after some discussion, it was then agreed that all discussion will be moved to Microsoft Teams.
+\\
+\subsection{GitHub}
+GitHub was used for the groups Git repository and to host the group website, GitHub is easy to use and the GitHub pages feature makes it easy to host a website.
+\\
+\subsection{Grammarly}
+Grammarly was used to help with spell checking and sentence structures, after problems with nonsense suggestions, it was not used anymore.
+\\
+\subsection{Microsoft Teams}
+Microsoft Teams (Teams for short) was the main form of communication used for this assessment, Teams made it easy for group members to share files and the extra features, like the calendar, made it easy to plan meetings in advanced.
+\\
+\subsection{Microsoft OneNote}
+Microsoft OneNote (OneNote for short) was the main program used for writing, OneNote made it easy for group members to collaborate on a piece of writing. The tab and page features in OneNote made it easy to organize the writing sections in our assessment.
+\\
+\subsection{Microsoft Word}
+Microsoft Word (Word for short) was initially used for writing the report, after some discussion, it was agreed that the document would be written in \href{https://www.latex-project.org/}{\LaTeX.}
+\\
+\subsection{TeXworks}
+TeXworks was used to write the document in \href{https://www.latex-project.org/}{\LaTeX.}, it is a simple, multi-platform front-end program that makes writing in \href{https://www.latex-project.org/}{\LaTeX.}
+
+\section{Git Audit Trail}
+
+
+\newpage
+
+\part{References}
+\section{Autonomous Vehicles}
 $[$A1$]$Wevolver, \emph{2020 Autonomous Vehicle Technology Report} 2020, viewed 6 July 2020
 \\ \href{https://www.wevolver.com/article/2020.autonomous.vehicle.technology.report}{$<$https://www.wevolver.com/article/2020.autonomous.vehicle.technology\\.report$>$}
 \\
@@ -982,7 +1053,7 @@ $[$A3$]$engineering.com, \emph{State of the Art: Autonomous Driving Technology a
 \\
 $[$A4$]$Mobility Lab, \emph{Two keys to how autonomous vehicles could ease congestion} 2016, viewed 7 July 2020 \href{https://mobilitylab.org/2016/06/16/two-keys-autonomous-vehicles-ease-congestion/}{$<$https://mobilitylab.org/2016/06/16/two-keys-autonomous-vehicles-ease-congestion/$>$}
 
-\subsection{Blockchain and Cryptocurrency}
+\section{Blockchain and Cryptocurrency}
 $[$B1$]$Swan, M 2015, Blockchain: Blueprint for a New Economy, 1st edn, O'Reilly Media North Sebastopol, CA, USA.
 \\
 \\
@@ -1000,7 +1071,7 @@ $[$B4$]$DHL, \emph{Is Blockchain the New Internet?}, viewed 4 July
 \\
 $[$B5$]$Ledger Insights, \emph{Bank of China officially launches insurance blockchain} 2019, viewed 5 July \href{https://www.ledgerinsights.com/bank-of-china-insurance-blockchain/}{$<$https://www.ledgerinsights.com/bank-of-china-\\insurance-blockchain/$>$}
 
-\subsection{Cybersecurity}
+\section{Cybersecurity}
 $[$C1$]$Department of Homeland Security, \emph{Moving Target Defense}, viewed 5 July 2020 \href{https://www.dhs.gov/science-and-technology/csd-mtd}{$<$https://www.dhs.gov/science-and-technology/csd-mtd$>$}
 \\
 \\
@@ -1009,7 +1080,7 @@ $[$C2$]$Morphisec, \emph{Deception and Counter Deception} 2016, viewed 5 July 20
 \\
 $[$C3$]$INFOSEC, \emph{How Criminals Can Exploit AI} 2018, viewed 6 July 2020 \href{https://resources.infosecinstitute.com/criminals-can-exploit-ai/}{$<$https://resources.infosecinstitute.com/criminals-can-exploit-ai/$>$}
 
-\subsection{Robotics}
+\section{Robotics}
 $[$D1$]$\emph{Honda's Asimo Robot buckling on the stairs} 2006, YouTube, viewed 9 July 2020 \href{https://www.youtube.com/watch?v=VTlV0Y5yAww}{$<$https://www.youtube.com/watch?v=VTlV0Y5yAww$>$}
 \\
 \\
