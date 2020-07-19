@@ -292,6 +292,13 @@ body {
     padding: 3.5px;
 }
 
+.link li {
+    *zoom: 1;
+    *display: inline;
+    width: 100%;
+    height: 100%;
+}
+
 h1 {
     font-size: 50px;
     font-weight: 700;
